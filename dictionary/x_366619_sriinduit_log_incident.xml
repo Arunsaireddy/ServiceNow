@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="log incident" max_length="40" name="x_366619_sriinduit_log_incident" sizeclass="4" type="collection">
+        <element choice="1" label="choice" max_length="1000" name="choice" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
+        </element>
+        <element choice="1" label="contact type2" max_length="40" name="contact_type2" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Email" value="email"/>
+                <element inactive_on_update="false" label="Phone" value="phone"/>
+            </choice>
+        </element>
+        <element label="history" max_length="4000" name="history" type="journal"/>
+        <element label="sriindudesc" max_length="1000" name="sriindudesc" read_only="true" type="string"/>
+    </element>
+</database>

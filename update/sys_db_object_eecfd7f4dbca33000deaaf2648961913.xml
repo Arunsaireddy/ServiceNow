@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Suggestion Box</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_366619_sriinduit_suggestion_table</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class display_value="Task" name="task">29c855b47420330078509adcc48c8788</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 01:07:14</sys_created_on>
+        <sys_id>eecfd7f4dbca33000deaaf2648961913</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Suggestion Box</sys_name>
+        <sys_package display_value="Sriinduit" source="x_366619_sriinduit">734cfd1cdbca33000deaaf26489619ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sriinduit">734cfd1cdbca33000deaaf26489619ab</sys_scope>
+        <sys_update_name>sys_db_object_eecfd7f4dbca33000deaaf2648961913</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 01:11:48</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_366619_sriinduit.suggestion_table_user" name="x_366619_sriinduit.suggestion_table_user">af00e7f4dbca33000deaaf264896191d</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>
