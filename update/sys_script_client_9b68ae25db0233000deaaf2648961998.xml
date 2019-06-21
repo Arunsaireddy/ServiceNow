@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>facility_user</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>facility client script</name>
+        <order/>
+        <script><![CDATA[function onLoad(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var ga = new GlideAjax('HelloWorld');
+ga.addParam('sysparm_name', 'helloWorld');
+ga.addParam('sysparm_user_name', "Bob");
+ga.getXML(HelloWorldParse);
+ 
+function HelloWorldParse(response) {
+  var answer = response.responseXML.documentElement.getAttribute("answer");
+  alert(answer); }
+	//Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-15 05:01:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b68ae25db0233000deaaf2648961998</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>facility client script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sriinduit" source="x_366619_sriinduit">734cfd1cdbca33000deaaf26489619ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sriinduit">734cfd1cdbca33000deaaf26489619ab</sys_scope>
+        <sys_update_name>sys_script_client_9b68ae25db0233000deaaf2648961998</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-15 05:03:17</sys_updated_on>
+        <table>x_366619_sriinduit_log_incident_backup</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

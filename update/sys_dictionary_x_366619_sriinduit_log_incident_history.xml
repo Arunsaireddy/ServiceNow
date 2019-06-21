@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-11 06:39:37</sys_created_on>
-        <sys_id>adc89e50db4e33000deaaf264896198f</sys_id>
+        <sys_id>b24ed911db8a73000deaaf26489619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>history</sys_name>
         <sys_package display_value="Sriinduit" source="x_366619_sriinduit">734cfd1cdbca33000deaaf26489619ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sriinduit">734cfd1cdbca33000deaaf26489619ab</sys_scope>
         <sys_update_name>sys_dictionary_x_366619_sriinduit_log_incident_history</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-11 06:39:37</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-14 04:57:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

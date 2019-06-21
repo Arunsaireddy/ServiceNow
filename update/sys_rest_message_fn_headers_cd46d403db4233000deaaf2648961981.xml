@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="INSERT_OR_UPDATE">
+        <name>Accept</name>
+        <rest_message_function display_value="nmo">9c461c03db4233000deaaf2648961973</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 10:13:57</sys_created_on>
+        <sys_id>cd46d403db4233000deaaf2648961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accept</sys_name>
+        <sys_package display_value="Sriinduit" source="x_366619_sriinduit">734cfd1cdbca33000deaaf26489619ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sriinduit">734cfd1cdbca33000deaaf26489619ab</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_cd46d403db4233000deaaf2648961981</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-19 10:13:57</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_fn_headers>
+</record_update>

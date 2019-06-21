@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>shree</name>
+        <password>4ynNL+xDPEDzjXDvRvRIKA==</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 09:11:13</sys_created_on>
+        <sys_id>842804cbdb0233000deaaf2648961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shree</sys_name>
+        <sys_package display_value="Sriinduit" source="x_366619_sriinduit">734cfd1cdbca33000deaaf26489619ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sriinduit">734cfd1cdbca33000deaaf26489619ab</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_842804cbdb0233000deaaf2648961993</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-19 09:11:13</sys_updated_on>
+        <username>admin</username>
+    </sys_auth_profile_basic>
+</record_update>
